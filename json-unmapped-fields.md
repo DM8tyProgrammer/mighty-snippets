@@ -1,6 +1,6 @@
 # Collecting unmapped fields with Object Mapper
 
-Jackson is popular Java library to convert json to Java Object. It matches json field by Java Object field by name or mapping provided by `@JsonProperty`.
+Jackson is a popular Java library to convert JSON to Java Object. It maps JSON field with object field by name or mapping provided by `@JsonProperty`.
 
 Sometimes, you want to map or collect the fields which are not mapped. `@JsonAnySetter` is useful in this case.
 
@@ -27,7 +27,7 @@ class Profile {
 
 ```java
 /*
-Say following json
+json
 {
   "name": "m8ty",
   "handler": "@DM8tyProgrammer"
