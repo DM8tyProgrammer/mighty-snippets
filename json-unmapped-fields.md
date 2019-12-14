@@ -1,3 +1,7 @@
+---
+title: 'json-unmapped-fields'
+---
+
 # Collecting unmapped fields with Object Mapper
 
 Jackson is a popular Java library to convert JSON to Java Object. It maps JSON field with object field by name or mapping provided by `@JsonProperty`.
