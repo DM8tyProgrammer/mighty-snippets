@@ -1,11 +1,11 @@
 ---
-title: 'Reusing Gradle Repositories'
+title: 'Reusing Gradle buildscript Repositories'
 description: 'getByName() can be used to reuse gradle repositories from buildscript'
 tags: 'gradle, reusing repository, java, buildTool, buildscript'
 datePublished: '2019-12-15'
 ---
 
-# Reusing Gradle Repositories from `buildscript`
+# Reusing Gradle `buildscript` Repositories
 
 [Gradle](https://gradle.org/) is a leading build tool. It downloads libraries from the declared repositories. It has a flaw that you have to declare repositories twice (`buildscript.repositories` and `repositories`) if you are using plugins.
 
