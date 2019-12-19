@@ -32,7 +32,7 @@ class Profile {
 }
 ```
 
-In action
+## In action
 
 ```java
 /* Consider JSON

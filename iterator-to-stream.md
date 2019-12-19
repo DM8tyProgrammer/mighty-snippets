@@ -20,6 +20,6 @@ There is [`StreamSupport.stream`](https://docs.oracle.com/javase/8/docs/api/java
       false);
 ```
 
-# Play code: [Rept.it](https://repl.it/@DM8tyProgrammer/iterator-to-stream)
+## Play code: [Rept.it](https://repl.it/@DM8tyProgrammer/iterator-to-stream)
 
-<iframe height="400px" width="100%" src="https://repl.it/@DM8tyProgrammer/iterator-to-stream?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="700px" width="100%" src="https://repl.it/@DM8tyProgrammer/iterator-to-stream?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
