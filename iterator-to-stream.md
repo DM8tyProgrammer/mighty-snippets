@@ -11,7 +11,7 @@ There is no direct API available to convert an `iterator` to `stream` in Stream 
 
 There is [`StreamSupport.stream`](https://docs.oracle.com/javase/8/docs/api/java/util/stream/StreamSupport.html#stream-java.util.Spliterator-boolean-) API which accepts `spliterator`. You can convert an `iterator` to `spliterator` through [`Spliterators.spliteratorUnknownSize`](https://docs.oracle.com/javase/8/docs/api/java/util/Spliterators.html#spliteratorUnknownSize-java.util.Iterator-int-), then `spliterator` to `stream`.
 
-> In gist, `iterator` -> `spliterator` -> `stream`
+> In gist, `iterator` → `spliterator` → `stream`
 
 ```java
   Stream<Integer> stream = StreamSupport.stream(
