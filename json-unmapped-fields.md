@@ -1,5 +1,5 @@
 ---
-title: 'json-unmapped-fields'
+title: 'Collecting unmapped fields with Object Mapper'
 tags: 'json, java, jackson, objectmapper,JsonAnySetter'
 description: 'Jackson provides @JsonAnySetter for collecting unmapped or unrecognized fields.'
 datePublished: '2019-12-07'
