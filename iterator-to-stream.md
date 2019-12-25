@@ -1,7 +1,7 @@
 ---
 title: 'Java - Iterator to Stream'
 description: 'Convert Iterator to Stream in Java 8+'
-tags: stream, iterator, java, convert iterator
+tags: stream, iterator, java, convert iterator to stream, java 8
 datePublished: '2019-12-19'
 ---
 
