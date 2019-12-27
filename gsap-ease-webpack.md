@@ -1,7 +1,7 @@
 ---
 title: 'GSAP-3 Ease with Webpack'
 description: Ease can't be used straightforward. By altering the way of importing Gsap, Ease can be used.
-tags: 'gsap, gsap ease, gsap ease with webpack, gsap ease with babel, gsap ease with es6 import, animation, webpack, javascript, es6, babel'
+keywords: 'gsap, gsap ease, gsap ease with webpack, gsap ease with babel, gsap ease with es6 import, animation, webpack, javascript, es6, babel'
 datePublished: '2019-12-25'
 ---
 

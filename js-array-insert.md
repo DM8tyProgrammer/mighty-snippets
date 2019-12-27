@@ -1,7 +1,7 @@
 ---
 title: Javascript - Insert at any index in an array
 description: 'splice api can be used to insert in an array at any index'
-tags: 'javascript, insert array, array insert in javascript, array, array insert, splice'
+keywords: 'javascript, insert array, array insert in javascript, array, array insert, splice'
 datePublished: '2019-12-27'
 ---
 
