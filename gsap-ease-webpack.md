@@ -1,11 +1,9 @@
 ---
-title: 'GSAP-3 Ease with Webpack'
+title: 'Importing GSAP-3 Ease with Webpack'
 description: Ease can't be used straightforward. By altering the way of importing Gsap, Ease can be used.
 keywords: 'gsap, import gsap ease,  gsap ease with webpack, gsap ease with babel, gsap ease with es6 import, animation, webpack, javascript, es6, babel'
 datePublished: '2019-12-25'
 ---
-
-# Importing GSAP-3 Ease with Webpack
 
 Using [GSAP ease](https://greensock.com/docs/v3/Eases) with Webpack / babel is not straightforward.
 Webpack needs to know independent references to link and optimize javascript.

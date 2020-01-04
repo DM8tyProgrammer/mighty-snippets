@@ -5,8 +5,6 @@ description: 'Jackson provides @JsonAnySetter for collecting unmapped or unrecog
 datePublished: '2019-12-07'
 ---
 
-# Collecting unmapped fields with Object Mapper
-
 [Jackson](https://github.com/FasterXML/jackson) is a popular Java library to convert JSON to Java Object. It maps JSON field with object field by name or mapping provided by `@JsonProperty`.
 
 Jackson provides [`@JsonAnySetter`](https://fasterxml.github.io/jackson-annotations/javadoc/2.4/com/fasterxml/jackson/annotation/JsonAnySetter.html) for collecting _unmapped_ or _unrecognized_ fields.
