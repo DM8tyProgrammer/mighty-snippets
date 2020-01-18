@@ -1,9 +1,10 @@
 ---
 title: Javascript - Insert at any index in an array
 description: 'splice api can be used to insert in an array at any index'
-keywords: 'javascript, insert array, array insert in javascript, array, array insert, splice'
+keywords: 'javascript, insert array, array insert in javascript, array, array insert, array splice'
 tags: 'javascript'
 datePublished: '2019-12-27'
+lastModified: '2020-01-19'
 ---
 
 There is no straightforward API to insert in an array at any index in Javascript. Through [`splice`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice) API, it can be simulated as:

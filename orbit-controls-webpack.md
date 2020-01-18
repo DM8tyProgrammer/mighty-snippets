@@ -1,10 +1,10 @@
 ---
 title: Importing Threejs OrbitControls with Webpack
 description: Import OrbitControls with Webpack or es6 style.
-keywords: 'import orbitcontrols,webpack,threejs'
+keywords: 'import orbitcontrols,webpack,threejs, import orbit controls webpack, import oribitcontrols typescript, import orbitcontrols es6'
 tags: three.js
 datePublished: '2019-12-29'
-lastModified: '2019-01-19'
+lastModified: '2020-01-19'
 ---
 
 [OrbitControls](https://threejs.org/docs/#examples/en/controls/OrbitControls) controls camera movements in [Three.js]() ecosystem. When using CDN, the import of OrbitControl is just as `new Three.OribitControls()` but when using with webpack or importing the library with `ES6` style, It is no longer the case.

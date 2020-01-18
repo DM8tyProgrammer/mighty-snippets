@@ -1,8 +1,9 @@
 ---
 title: 'Collecting unmapped fields with Object Mapper'
-keywords: 'json, java, jackson, objectmapper,JsonAnySetter, unmapped fields with Jackson, unmapped fields with objectmapper'
+keywords: 'json, java, jackson, objectmapper,JsonAnySetter,unmapped fields, unmapped fields with Jackson, unmapped fields with objectmapper'
 description: 'Jackson provides @JsonAnySetter for collecting unmapped or unrecognized fields.'
 datePublished: '2019-12-07'
+lastModified: '2020-01-19'
 ---
 
 [Jackson](https://github.com/FasterXML/jackson) is a popular Java library to convert JSON to Java Object. It maps JSON field with object field by name or mapping provided by `@JsonProperty`.
