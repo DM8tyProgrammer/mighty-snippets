@@ -2,7 +2,7 @@
 title: 'Custom Bootstrap Button with Sass/Scss'
 description: Create customized color button with bootstrap
 dataPublished: '2020-01-05'
-lastModified: '2020-01-19'
+lastModified: '2020-02-01'
 keywords: 'customized boostrap button, bootstrap button, sass, bootstrap button color change'
 tags: 'sass'
 ---
@@ -44,4 +44,4 @@ $feature-bg: #ffd803;
 <button class="btn btn-feature">Feature</button>
 ```
 
-> Subscription button that you see on this site has been made using the above technique.
+> `Subscribe` button that you see on this site has been made using the above technique.
