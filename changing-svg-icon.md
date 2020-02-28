@@ -3,12 +3,12 @@ title: FontAwesome - Changing SVG icons programmatically
 description: 'Change FontAwesome SVG icons with JavaScript'
 tags: 'font-awesome, javascript'
 datePublished: '2020-02-10'
-lastModified: '2020-02-10'
+lastModified: '2020-02-29'
 ---
 
 [FontAwesome](https://fontawesome.com/) is the most famous icon library. SVG is one good performant option to render icons when you are using a few numbers of its on your website.
 
-FontAwesome replaces icon tag with SVG on rendering, which makes changing the icon challenge.
+While working on Article: [Custom Event with RxJS](https://themightyprogrammer.dev/article/custom-event-js); I learnt that FontAwesome replaces icon tag with SVG on rendering, which makes changing the icon tricky.
 
 ```html
 <i class="dot far fa-circle"></i>
@@ -32,7 +32,7 @@ Result in
 </svg>
 ```
 
-Note down
+Note down:
 
 - `dot` is custom class, and it became part of SVG class.
   It is helpful to target SVG.
@@ -53,3 +53,13 @@ let dot = document.querySelector('.dot')
 let icon = dot.getAttribute('data-prefix') === 'far' ? 'fas' : 'far'
 dot.setAttribute('data-prefix', icon)
 ```
+
+### In Action
+
+<iframe
+     src="https://codesandbox.io/embed/eager-gates-dp26m?fontsize=14&hidenavigation=1&theme=dark&view=preview"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="eager-gates-dp26m"
+     allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb"
+     sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
+></iframe>
