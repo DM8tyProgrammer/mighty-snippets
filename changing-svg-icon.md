@@ -57,7 +57,7 @@ dot.setAttribute('data-prefix', icon)
 ### In Action
 
 <iframe
-     data-src="https://codesandbox.io/embed/eager-gates-dp26m?fontsize=14&hidenavigation=1&theme=dark&view=preview"
+     src="https://codesandbox.io/embed/eager-gates-dp26m?fontsize=14&hidenavigation=1&theme=dark&view=preview"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
      title="eager-gates-dp26m"
      allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb"

@@ -36,4 +36,4 @@ a.insert(5, 5)
 
 Check out `script.js` file.
 
-<iframe height="400px" width="100%" data-src="https://repl.it/@DM8tyProgrammer/js-array-insert?lite=true&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="400px" width="100%" src="https://repl.it/@DM8tyProgrammer/js-array-insert?lite=true&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
