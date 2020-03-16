@@ -3,7 +3,7 @@ title: 'Java - Iterator to Stream'
 description: 'Convert Iterator to Stream in Java 8+'
 keywords: stream, iterator, java, iterator to stream, convert iterator to stream, java 8
 datePublished: '2019-12-19'
-lastModified: '2020-01-19'
+lastModified: '2020-03-16'
 ---
 
 There is no direct API available to convert an `iterator` to `stream` in `Stream` interface. However, there is an indirect path available for the same.

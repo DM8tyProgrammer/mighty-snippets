@@ -3,7 +3,7 @@ title: FontAwesome - Changing SVG icons programmatically
 description: 'Change FontAwesome SVG icons with JavaScript'
 tags: 'font-awesome, javascript'
 datePublished: '2020-02-10'
-lastModified: '2020-02-29'
+lastModified: '2020-03-16'
 ---
 
 [FontAwesome](https://fontawesome.com/) is the most famous icon library. SVG is one good performant option to render icons when you are using a few numbers of its on your website.
@@ -57,7 +57,7 @@ dot.setAttribute('data-prefix', icon)
 ### In Action
 
 <iframe
-     src="https://codesandbox.io/embed/eager-gates-dp26m?fontsize=14&hidenavigation=1&theme=dark&view=preview"
+     data-src="https://codesandbox.io/embed/eager-gates-dp26m?fontsize=14&hidenavigation=1&theme=dark&view=preview"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
      title="eager-gates-dp26m"
      allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb"

@@ -4,7 +4,7 @@ description: 'splice api can be used to insert in an array at any index'
 keywords: 'javascript, insert array, array insert in javascript, array, array insert, array splice'
 tags: 'javascript'
 datePublished: '2019-12-27'
-lastModified: '2020-01-19'
+lastModified: '2020-03-16'
 ---
 
 There is no straightforward API to insert in an array at any index in Javascript. Through [`splice`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice) API, it can be simulated as:
@@ -36,4 +36,4 @@ a.insert(5, 5)
 
 Check out `script.js` file.
 
-<iframe height="400px" width="100%" src="https://repl.it/@DM8tyProgrammer/js-array-insert?lite=true&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="400px" width="100%" data-src="https://repl.it/@DM8tyProgrammer/js-array-insert?lite=true&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
