@@ -2,7 +2,7 @@
 title: 'Frequency Map in Java 8+'
 description: 'Calculating the frequency of items in Java 8 or above using stream and collector APIs'
 dataPublished: '2020-04-14'
-lastModified: '2020-04-14'
+lastModified: '2020-04-20'
 keywords: 'frequency map, java 8, java 9, java 11, java 14'
 tags: 'java'
 ---
@@ -10,6 +10,12 @@ tags: 'java'
 Frequency Map in Java 8 or above can be created concisely with the help of `Stream` and `Collectors.groupingBy` API.
 
 A general method to count frequency of elements:
+
+```java
+import java.util.stream.*;
+import java.util.*;
+import java.util.function.*;
+```
 
 ```java
 <T> Map<T, Long>  frequencyMap(Stream<T> elements) {
