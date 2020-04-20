@@ -7,7 +7,7 @@ keywords: 'frequency map, java 8, java 9, java 11, java 14'
 tags: 'java'
 ---
 
-Frequency Map in Java 8 or above can be created concisely with the help of `Stream` and `Collectors.groupingBy` API.
+Frequency Map in Java 8 or above can be created concisely with the help of `Stream` and `Collectors.groupingBy()` API.
 
 A general method to count frequency of elements:
 
@@ -33,14 +33,30 @@ Any streamable and countable collection can utilise the above method to count th
 
 ## Frequency Map of List Elements
 
+A list can be converted to stream by calling `stream()`.
+
 ```java
 List<String> words = Arrays.asList("hello", "hello", "mighty");
-frequencyMap(words.stream())
+frequencyMap(words.stream());
 ```
 
-## Frequency Map of Array Elements
+## Frequency Map of Characters Array
+
+An array of Character can be converted to Stream using `Arrays.stream()`
 
 ```java
 Character[] letters = {'a', 'b', 'b', 'c', 'c', 'c'};
-frequencyMap(Arrays.stream(letters))
+frequencyMap(Arrays.stream(letters));
 ```
+
+## Frequency Map of Integers Array or unboxed type
+
+An array of unboxed typed elements can be converted to Stream using `Arrays.stream()` and calling `boxed()`
+
+```java
+int [] numbers = {1, 2, 3};
+frequencyMap(Arrays.stream(numbers).boxed());
+```
+
+See it in action →
+[https://repl.it/@DM8tyProgrammer/frequency](https://repl.it/@DM8tyProgrammer/frequency)
