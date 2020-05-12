@@ -2,7 +2,7 @@
 title: 'Frequency Map in Java 8+'
 description: 'Calculating the frequency of items in Java 8 or above using stream and collector APIs'
 dataPublished: '2020-04-14'
-lastModified: '2020-04-20'
+lastModified: '2020-05-12'
 keywords: 'frequency map, java 8, java 9, java 11, java 14'
 tags: 'java'
 ---
@@ -47,6 +47,15 @@ An array of Character can be converted to Stream using `Arrays.stream()`
 ```java
 Character[] letters = {'a', 'b', 'b', 'c', 'c', 'c'};
 frequencyMap(Arrays.stream(letters));
+```
+
+## Frequency Map of Characters from String
+
+String characters can be converted to stream `chars()`. However, it returns intergers stream instead of charcters stream; Each integer needs to be converted back to character using `maptoObj` method as:
+
+```java
+String aString = "abc"
+frequencyMap(aString.chars().mapToObj(c -> (char) c));
 ```
 
 ## Frequency Map of Integers Array or unboxed type
