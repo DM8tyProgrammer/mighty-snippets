@@ -3,10 +3,10 @@ title: FontAwesome - Changing SVG icons programmatically
 description: 'Change FontAwesome SVG icons with JavaScript'
 tags: 'font-awesome, javascript'
 datePublished: '2020-02-10'
-lastModified: '2020-03-16'
+lastModified: '2020-05-23'
 ---
 
-[FontAwesome](https://fontawesome.com/) is the most famous icon library. SVG is one good performant option to render icons when you are using a few numbers of its on your website.
+[FontAwesome](https://fontawesome.com/) is the most famous icon library. SVG is one good performant option to render icons when you are using a few icons.
 
 While working on Article: [Custom Event with RxJS](https://themightyprogrammer.dev/article/custom-event-js); I learnt that FontAwesome replaces icon tag with SVG on rendering, which makes changing the icon tricky.
 
@@ -34,11 +34,10 @@ Result in
 
 Note down:
 
-- `dot` is custom class, and it became part of SVG class.
-  It is helpful to target SVG.
+- `dot` is a custom class; FontAwesome made this custom class as one of the classes of rendered SVG. This mechanism is helpful to target SVG.
 
-* `far` became data-prefix of SVG.
-* `circle` became data-icon
+- `far` became data-prefix of SVG.
+- `circle` became data-icon
 
 ## Technique
 
