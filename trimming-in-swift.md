@@ -31,7 +31,7 @@ Superman
 ```
 
 ## Using Foundation
-Foundation also defined the same API for trimming strings, but this can be used  using NSCharacterSet class for explaining the characters.
+Foundation also defined the same API for trimming strings, but this can be used using `NSCharacterSet` class for explaining the characters.
 
 ```swift
 
