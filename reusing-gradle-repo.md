@@ -2,6 +2,7 @@
 title: 'Gradle - Reusing buildscript Repositories'
 description: 'getByName() can be used to reuse gradle repositories from buildscript'
 tags: 'gradle,java,reusing buildscript repositories'
+headerImage: /post/gradle.png
 datePublished: '2019-12-15'
 lastModified: '2020-01-31'
 ---

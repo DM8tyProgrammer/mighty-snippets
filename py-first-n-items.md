@@ -2,6 +2,7 @@
 title: Python - First n items from dictionary / List
 description: Extract first n items from any iterable.
 tags: python
+headerImage: /post/python.png
 datePublished: '2020-02-28'
 lastModified: '2020-02-28'
 ---

@@ -3,6 +3,7 @@ title: 'Custom Bootstrap Button with Sass/Scss'
 description: Create customized color button with bootstrap
 dataPublished: '2020-01-05'
 lastModified: '2020-03-23'
+headerImage: /post/bootstrap.png
 keywords: 'customized boostrap button, bootstrap button, sass, bootstrap button color change'
 tags: 'sass'
 ---

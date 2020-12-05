@@ -1,8 +1,9 @@
 ---
-title: Importing Threejs OrbitControls
+title: Threejs - Importing OrbitControls
 description: Import OrbitControls with Webpack or es6 style.
 keywords: ‘import orbitcontrols,webpack,threejs, import orbit controls webpack, import oribitcontrols typescript, import orbitcontrols es6’
 tags: three.js
+headerImage: /post/threejs.png
 datePublished: ‘2019-12-29’
 lastModified: ‘2020-03-28’
 ---
