@@ -1,20 +1,22 @@
 ---
 title: FontAwesome - Changing SVG icons programmatically
-description: 'Change FontAwesome SVG icons with JavaScript'
+description: 'Learn how to change FontAwesome SVG icons with JavaScript'
 tags: 'font-awesome, javascript'
 datePublished: '2020-02-10'
-lastModified: '2020-05-23'
+lastModified: '2022-04-22'
 ---
 
-[FontAwesome](https://fontawesome.com/) is the most famous icon library. SVG is one good performant option to render icons when you are using a few icons.
+[FontAwesome](https://fontawesome.com/) is the most famous icon library. When you only need a few icons, SVG is a fantastic alternative for rendering them. 
 
-While working on Article: [Custom Event with RxJS](https://themightyprogrammer.dev/article/custom-event-js); I learnt that FontAwesome replaces icon tag with SVG on rendering, which makes changing the icon tricky.
+While working on Article: [Custom Event with RxJS](/article/custom-event-js),  I discovered that FontAwesome renders the icon tag as SVG, making changing the icon difficult. Changing the class of `<i>` tag alone is not a solution. To alter the icon programmatically, you must first understand "how it is rendered."
+
+
+## Rendering of icon
 
 ```html
 <i class="dot far fa-circle"></i>
 ```
-
-Result in
+It's worth noting that `dot` isn't a FontAwesome-specific class. Any class can be added; it is used to demonstrate a technique that you will learn about in the subsequent section. The SVG code for the aforementioned "icon tag" is as follows:
 
 ```html
 <svg
@@ -32,12 +34,11 @@ Result in
 </svg>
 ```
 
-Note down:
+### Elements of SVG
 
 - `dot` is a custom class; FontAwesome made this custom class as one of the classes of rendered SVG. This mechanism is helpful to target SVG.
-
 - `far` became data-prefix of SVG.
-- `circle` became data-icon
+- `circle` became data-icon. 
 
 ## Technique
 
@@ -46,6 +47,7 @@ Note down:
 
 ```javascript
 //	1. Fetch SVG
+// We added `dot` as custome class <i class="dot far fa-circle"></i>
 let dot = document.querySelector('.dot')
 
 // 2 . Change  data-prefix or data-icon
