@@ -20,7 +20,7 @@ Gradle, thankfully, enables you to name your repositories and gives a nice API f
 buildscript {
   repositories {
 
-    // start of defination
+    // start of definition
     maven {
       // Define name of repository
       name 'myRepository1'
@@ -33,7 +33,7 @@ buildscript {
         password "password"
       }
     }
-    //end of defination
+    //end of definition
   }
 }
 
