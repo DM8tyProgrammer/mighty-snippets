@@ -8,20 +8,20 @@ lastModified: '2024-03-31'
 
 Converting an Iterator to a Stream can be done in two steps:
 
-1. Convert Iterator to splitIterator
-2. Pass the splitIterator to stream
+1. Convert Iterator to spliterator
+2. Pass the spliterator to stream
 
-## 1. Converting Iterator to SplitIterator
+## 1. Converting Iterator to Spliterator
 
 You can convert an Iterator type to a SplitIterator type through [`Spliterators.spliteratorUnknownSize`](https://docs.oracle.com/javase/8/docs/api/java/util/Spliterators.html#spliteratorUnknownSize-java.util.Iterator-int-) API as:
 
 ```java
-var splitIterator = SplitIterSpliterators.spliteratorUnknownSize(iterator, Spliterator.ORDERED)
+var splitIterator = Spliterators.spliteratorUnknownSize(iterator, Spliterator.ORDERED)
 ```
 
-## 2. SplitIterator to stream 
+## 2. Spliterator to stream 
 
-To convert SplitIterator to Stream, use the [`StreamSupport.stream`](https://docs.oracle.com/javase/8/docs/api/java/util/stream/StreamSupport.html#stream-java.util.Spliterator-boolean-) API, which accepts `SplitIterator` and a `boolean` indicating parallel stream.
+To convert Spliterator to Stream, use the [`StreamSupport.stream`](https://docs.oracle.com/javase/8/docs/api/java/util/stream/StreamSupport.html#stream-java.util.Spliterator-boolean-) API, which accepts `SplitIterator` and a `boolean` indicating parallel stream.
 
 ```java
  Stream<Integer> stream = StreamSupport.stream(splitIterator, false)
